@@ -1,0 +1,57 @@
+.jobs-list-container{
+    max-width: 900px;
+    margin: 20px auto;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.jobs-list-container h2{
+    font-size: 35px;
+    border-bottom: 4px solid #023047;
+    /* bring the text to the center */
+}
+
+.jobs-list-container .jobs{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.jobs-list-container .jobs img{
+    width: 60px;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.jobs-list-container .job{
+    box-shadow: 0 4px 24px -8px rgba(2, 48, 71, 0.2);
+    padding: 25px;
+    border-radius: 15px;
+    position: relative;
+    transition: all 400ms ease;
+    display: flex;
+    flex-direction: column;
+}
+
+.jobs-list-container .job:hover{
+    transform: scale(1.03);
+}
+
+
+.jobs-list-container .job-title{
+    font-size: 20px;
+    padding: 10px 0;
+    margin: 0;
+    color: #023047;
+}
+
+
+.jobs-list-container .job-search{
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+    border: 1px solid #333;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
